@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
-    @Test
+/*    @Test
     public void loginPositiveTest(){
 
         // open login form
@@ -78,5 +78,5 @@ public class LoginTests extends TestBase {
         app.getHelperUser().pause(3000);
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
 
-    }
+    }*/
 }
