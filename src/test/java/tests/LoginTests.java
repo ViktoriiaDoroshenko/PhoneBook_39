@@ -98,6 +98,6 @@ public class LoginTests extends TestBase {
         //Assert.assertTrue(isAlertPresent());
         app.getHelperUser().pause(3000);
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
-
+        System.out.println("for git");
     }
 }
