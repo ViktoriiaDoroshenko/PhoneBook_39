@@ -12,7 +12,7 @@ public class HelperUser extends HelperBase{
     public void openLoginRegistrationForm (){
         wd.findElement(By.xpath("//*[.='LOGIN']")).click();
     }
-    public void fillLoginRegistrationForm(User user){
+    public void fillLoginRegistrationForm(String email, String password){
         //WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
         // emailInput.click();
         // emailInput.clear();
@@ -21,8 +21,8 @@ public class HelperUser extends HelperBase{
         // passInput.click();
         // passInput.clear();
         // passInput.sendKeys(password);
-        type(By.xpath("//input[1]"), user.getEmail());
-        type(By.xpath("//input[2]"), user.getPassword());
+        type(By.xpath("//input[1]"), email);
+        type(By.xpath("//input[2]"), password);
     }
     public boolean isLogged(){
         return isElementPresent(By.xpath("//*[.='Sign Out']"));

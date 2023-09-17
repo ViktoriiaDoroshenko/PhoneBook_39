@@ -1,12 +1,14 @@
 package tests;
 
+import models.Contact;
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
-/*    @Test
+    @Test
     public void loginPositiveTest(){
 
         // open login form
@@ -30,6 +32,25 @@ public class LoginTests extends TestBase {
         //Assert.assertTrue(wd.findElements(By.tagName("button")).size()>0);
         Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
     }
+   @Test
+    public void loginPositiveTestModel(){
+
+        User user = User.builder()
+                .email("kira20@gmail.com")
+                .password("2008Kira!")
+                .build();
+        // open login form
+        app.getHelperUser().openLoginRegistrationForm();
+        // fill login form
+        app.getHelperUser().fillLoginRegistrationForm(user.getEmail(), user.getPassword());
+        // click on button login
+        app.getHelperUser().submitLogin();
+        // assert
+        app.getHelperUser().pause(3000);
+        //Assert.assertTrue(wd.findElements(By.tagName("button")).size()>0);
+        Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
+    }
+
   @Test
     public void loginNegativeTestWrongEmail(){
         // open login form
@@ -78,5 +99,5 @@ public class LoginTests extends TestBase {
         app.getHelperUser().pause(3000);
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
 
-    }*/
+    }
 }

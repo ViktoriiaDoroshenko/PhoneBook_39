@@ -10,10 +10,9 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationPositiveTest(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User("rena" + i + "@gmail.com", "2020Rena!");
 
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().fillLoginRegistrationForm("rena" + i + "@gmail.com", "2020Rena!");
         app.getHelperUser().submitRegistration();
         app.getHelperUser().pause(3000);
         Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
