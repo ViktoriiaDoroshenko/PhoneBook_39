@@ -1,0 +1,64 @@
+2023-10-08 20:22:23,758 INFO m.ApplicationManager [ApplicationManager.java:26] Navigated to the link ---> https://telranedu.web.app/home
+2023-10-08 20:22:23,921 INFO t.TestBase [TestBase.java:31] Started test ----> loginNegativeTestWrongEmail
+2023-10-08 20:22:23,925 INFO m.NGListener [NGListener.java:16] Start of the test --> loginNegativeTestWrongEmail
+2023-10-08 20:22:23,928 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //*[.='LOGIN']
+2023-10-08 20:22:24,211 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //*[.='LOGIN'] is found
+2023-10-08 20:22:24,649 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //input[1]
+2023-10-08 20:22:24,683 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //input[1] is found
+2023-10-08 20:22:25,028 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //input[2]
+2023-10-08 20:22:25,051 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //input[2] is found
+2023-10-08 20:22:25,222 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //button[1]
+2023-10-08 20:22:25,249 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //button[1] is found
+2023-10-08 20:22:26,962 INFO m.NGListener [NGListener.java:22] Success test --> loginNegativeTestWrongEmail
+2023-10-08 20:22:26,964 INFO t.TestBase [TestBase.java:36] Finished test ----> loginNegativeTestWrongEmail
+2023-10-08 20:22:26,965 INFO t.TestBase [TestBase.java:37] ================================================================
+2023-10-08 20:22:26,967 INFO t.TestBase [TestBase.java:31] Started test ----> loginPositiveTest
+2023-10-08 20:22:26,968 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTest
+2023-10-08 20:22:26,968 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //*[.='LOGIN']
+2023-10-08 20:22:26,981 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //*[.='LOGIN'] is found
+2023-10-08 20:22:27,044 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //input[1]
+2023-10-08 20:22:27,062 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //input[1] is found
+2023-10-08 20:22:27,271 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //input[2]
+2023-10-08 20:22:27,286 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //input[2] is found
+2023-10-08 20:22:27,459 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //button[1]
+2023-10-08 20:22:27,471 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //button[1] is found
+2023-10-08 20:22:30,537 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.tagName: button
+2023-10-08 20:22:30,566 INFO m.WDListener [WDListener.java:27] Element with locator --> By.tagName: button is found
+2023-10-08 20:22:30,566 INFO m.NGListener [NGListener.java:22] Success test --> loginPositiveTest
+2023-10-08 20:22:30,567 INFO t.TestBase [TestBase.java:36] Finished test ----> loginPositiveTest
+2023-10-08 20:22:30,568 INFO t.TestBase [TestBase.java:37] ================================================================
+2023-10-08 20:22:30,568 INFO t.TestBase [TestBase.java:31] Started test ----> loginPositiveTestModel
+2023-10-08 20:22:30,569 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestModel
+2023-10-08 20:22:30,581 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //*[.='LOGIN']
+2023-10-08 20:22:33,646 INFO m.WDListener [WDListener.java:34] Something went wrong!!!
+2023-10-08 20:22:33,647 INFO m.WDListener [WDListener.java:35] no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='LOGIN']"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OQN3UU0', ip: '10.100.102.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\nikan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e32599fe74e9df775e6916f8dd321156
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-08 20:22:33,647 INFO m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='LOGIN']"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OQN3UU0', ip: '10.100.102.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\nikan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e32599fe74e9df775e6916f8dd321156
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-08 20:22:34,049 INFO m.WDListener [WDListener.java:41] Here is the path to screenshot with error --> src/test/screenshots/screenshot-1353.png
+2023-10-08 20:22:34,050 INFO m.NGListener [NGListener.java:29] Failure test --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='LOGIN']"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OQN3UU0', ip: '10.100.102.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\nikan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e32599fe74e9df775e6916f8dd321156
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-08 20:22:34,051 INFO t.TestBase [TestBase.java:36] Finished test ----> loginPositiveTestModel
+2023-10-08 20:22:34,051 INFO t.TestBase [TestBase.java:37] ================================================================
+2023-10-08 20:22:34,929 INFO m.ApplicationManager [ApplicationManager.java:34] Tests completed

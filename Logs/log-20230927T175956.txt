@@ -1,0 +1,4 @@
+2023-09-27 18:00:01,203 INFO m.ApplicationManager [ApplicationManager.java:17] Navigated to the link ---> https://telranedu.web.app/home
+2023-09-27 18:00:01,261 INFO t.TestBase [TestBase.java:27] Started test ---> loginNegativeTestWrongEmail
+2023-09-27 18:00:09,920 INFO t.TestBase [TestBase.java:31] Finished test ---> loginNegativeTestWrongEmail
+2023-09-27 18:00:10,542 INFO m.ApplicationManager [ApplicationManager.java:24] Test completed

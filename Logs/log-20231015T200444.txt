@@ -1,0 +1,18 @@
+2023-10-15 20:04:46,983 INFO m.ApplicationManager [ApplicationManager.java:43] Test started on Chrome
+2023-10-15 20:04:47,405 INFO m.ApplicationManager [ApplicationManager.java:50] Navigated to the link ---> https://telranedu.web.app/home
+2023-10-15 20:04:47,467 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTestProperties
+2023-10-15 20:04:47,474 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestProperties
+2023-10-15 20:04:47,476 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //*[.='LOGIN']
+2023-10-15 20:04:47,506 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //*[.='LOGIN'] is found
+2023-10-15 20:04:47,641 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //input[1]
+2023-10-15 20:04:47,665 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //input[1] is found
+2023-10-15 20:04:47,911 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //input[2]
+2023-10-15 20:04:47,938 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //input[2] is found
+2023-10-15 20:04:48,097 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.xpath: //button[1]
+2023-10-15 20:04:48,115 INFO m.WDListener [WDListener.java:27] Element with locator --> By.xpath: //button[1] is found
+2023-10-15 20:04:51,188 INFO m.WDListener [WDListener.java:21] Start searching element by locator --> By.tagName: button
+2023-10-15 20:04:51,212 INFO m.WDListener [WDListener.java:27] Element with locator --> By.tagName: button is found
+2023-10-15 20:04:51,216 INFO m.NGListener [NGListener.java:22] Success test --> loginPositiveTestProperties
+2023-10-15 20:04:51,217 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTestProperties
+2023-10-15 20:04:51,218 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-15 20:04:52,009 INFO m.ApplicationManager [ApplicationManager.java:58] Tests completed

@@ -1,0 +1,40 @@
+2023-09-27 20:03:27,250 INFO m.ApplicationManager [ApplicationManager.java:21] Navigated to the link ---> https://telranedu.web.app/home
+2023-09-27 20:03:27,323 INFO t.TestBase [TestBase.java:27] Started test ---> loginPositiveTest
+2023-09-27 20:03:27,325 INFO m.NGListener [NGListener.java:16] Start of the test --->loginPositiveTest
+2023-09-27 20:03:27,327 INFO m.WDListener [WDListener.java:23] Start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-09-27 20:03:27,356 INFO m.WDListener [WDListener.java:29] Element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-09-27 20:03:27,472 INFO m.WDListener [WDListener.java:23] Start searching element by locator --->By.xpath: //input[1]
+2023-09-27 20:03:27,495 INFO m.WDListener [WDListener.java:29] Element with locator --->By.xpath: //input[1]is found
+2023-09-27 20:03:27,714 INFO m.WDListener [WDListener.java:23] Start searching element by locator --->By.xpath: input[2]
+2023-09-27 20:03:30,779 INFO m.WDListener [WDListener.java:36] Something went wrong!!!
+2023-09-27 20:03:30,781 INFO m.WDListener [WDListener.java:37] no such element: Unable to locate element: {"method":"xpath","selector":"input[2]"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OQN3UU0', ip: '10.100.102.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\nikan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 421240a8831fef9c2033c367ecaa0e95
+*** Element info: {Using=xpath, value=input[2]}
+2023-09-27 20:03:30,782 INFO m.WDListener [WDListener.java:38] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"input[2]"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OQN3UU0', ip: '10.100.102.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\nikan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 421240a8831fef9c2033c367ecaa0e95
+*** Element info: {Using=xpath, value=input[2]}
+2023-09-27 20:03:31,223 INFO m.WDListener [WDListener.java:43] Here is the path to screenshots
+2023-09-27 20:03:31,225 INFO m.NGListener [NGListener.java:28] Failure test --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"input[2]"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OQN3UU0', ip: '10.100.102.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\nikan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 421240a8831fef9c2033c367ecaa0e95
+*** Element info: {Using=xpath, value=input[2]}
+2023-09-27 20:03:31,228 INFO t.TestBase [TestBase.java:31] Finished test ---> loginPositiveTest
+2023-09-27 20:03:31,228 INFO t.TestBase [TestBase.java:32] =================================================================================
+2023-09-27 20:03:32,035 INFO m.ApplicationManager [ApplicationManager.java:28] Test completed

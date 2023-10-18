@@ -1,0 +1,3 @@
+2023-10-08 20:57:05,935 INFO m.NGListener [NGListener.java:16] Start of the test --> loginNegativeTestWrongEmail
+2023-10-08 20:57:05,941 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTest
+2023-10-08 20:57:05,942 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestModel

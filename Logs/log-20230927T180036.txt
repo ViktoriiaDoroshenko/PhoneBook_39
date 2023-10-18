@@ -1,0 +1,5 @@
+2023-09-27 18:00:39,537 INFO m.ApplicationManager [ApplicationManager.java:17] Navigated to the link ---> https://telranedu.web.app/home
+2023-09-27 18:00:39,599 INFO t.TestBase [TestBase.java:27] Started test ---> registrationPositiveTest
+2023-09-27 18:00:43,187 INFO t.TestBase [RegistrationTests.java:20] registrationPositiveTest start with: rena39@gmail.com&2020Rena!
+2023-09-27 18:00:43,212 INFO t.TestBase [TestBase.java:31] Finished test ---> registrationPositiveTest
+2023-09-27 18:00:43,961 INFO m.ApplicationManager [ApplicationManager.java:24] Test completed
