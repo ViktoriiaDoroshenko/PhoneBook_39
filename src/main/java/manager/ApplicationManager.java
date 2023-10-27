@@ -36,7 +36,7 @@ public class ApplicationManager {
 
         //properties.load(new FileReader(new File("src/test/resources/prod.properties")));
         //String link = "https://telranedu.web.app/home";
-        String target  = System.getProperty("target", "pre_prod");
+        String target = System.getProperty("target", "pre_prod");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
         String link = properties.getProperty("web.baseURL");
@@ -49,6 +49,7 @@ public class ApplicationManager {
             wd = new EventFiringWebDriver(new FirefoxDriver());
             logger.info("Test started on FireFox");
         }
+
         wd.register(new WDListener());
         wd.navigate().to(link);
         logger.info("Navigated to the link ---> " + link);
@@ -72,9 +73,11 @@ public class ApplicationManager {
     }
 
     public String getEmail (){
+
         return properties.getProperty("web.email");
     }
     public String getPassword (){
+
         return properties.getProperty("web.password");
     }
 }

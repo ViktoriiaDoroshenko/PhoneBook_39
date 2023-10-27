@@ -1,0 +1,6 @@
+2023-10-27 16:58:47,045 INFO t.TestBase [TestBase.java:35] Started test ----> addNewContactPositiveDTO
+2023-10-27 16:58:47,063 INFO t.TestBase [TestBase.java:40] Finished test ----> addNewContactPositiveDTO
+2023-10-27 16:58:47,064 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 16:58:47,065 INFO t.TestBase [TestBase.java:35] Started test ----> addNewContactPositiveDTO
+2023-10-27 16:58:47,069 INFO t.TestBase [TestBase.java:40] Finished test ----> addNewContactPositiveDTO
+2023-10-27 16:58:47,075 INFO t.TestBase [TestBase.java:41] ================================================================

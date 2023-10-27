@@ -21,7 +21,7 @@ public class AddNewContactTests extends TestBase{
         );
     }
 
-    @Test(groups = {"positive", "smoke"}, dataProvider= "contactDTO", dataProviderClass = ProviderData.class)
+    @Test(groups = {"positive","smoke"}, dataProvider = "contactDTO", dataProviderClass = ProviderData.class)
     public void addNewContactPositiveDTO(Contact contact){
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);

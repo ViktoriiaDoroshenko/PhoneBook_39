@@ -1,0 +1,38 @@
+2023-10-27 20:21:03,256 INFO m.ApplicationManager [ApplicationManager.java:50] Test started on FireFox
+2023-10-27 20:21:03,505 INFO t.TestBase [TestBase.java:35] Started test ----> loginNegativeTestWrongEmail
+2023-10-27 20:21:03,508 INFO m.NGListener [NGListener.java:16] Start of the test --> loginNegativeTestWrongEmail
+2023-10-27 20:21:03,511 INFO t.TestBase [TestBase.java:40] Finished test ----> loginNegativeTestWrongEmail
+2023-10-27 20:21:03,511 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,513 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTest
+2023-10-27 20:21:03,514 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTest
+2023-10-27 20:21:03,516 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTest
+2023-10-27 20:21:03,516 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,518 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTestModel
+2023-10-27 20:21:03,519 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestModel
+2023-10-27 20:21:03,520 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTestModel
+2023-10-27 20:21:03,520 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,521 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTestProperties
+2023-10-27 20:21:03,521 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestProperties
+2023-10-27 20:21:03,522 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTestProperties
+2023-10-27 20:21:03,523 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,531 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveUserDTO
+2023-10-27 20:21:03,532 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveUserDTO
+2023-10-27 20:21:03,533 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveUserDTO
+2023-10-27 20:21:03,533 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,535 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveUserDTO
+2023-10-27 20:21:03,535 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveUserDTO
+2023-10-27 20:21:03,536 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveUserDTO
+2023-10-27 20:21:03,537 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,538 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveUserDTO
+2023-10-27 20:21:03,539 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveUserDTO
+2023-10-27 20:21:03,540 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveUserDTO
+2023-10-27 20:21:03,540 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,552 INFO t.TestBase [TestBase.java:35] Started test ----> addNewContactPositiveDTO
+2023-10-27 20:21:03,555 INFO m.NGListener [NGListener.java:16] Start of the test --> addNewContactPositiveDTO
+2023-10-27 20:21:03,556 INFO t.TestBase [TestBase.java:40] Finished test ----> addNewContactPositiveDTO
+2023-10-27 20:21:03,557 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:03,558 INFO t.TestBase [TestBase.java:35] Started test ----> addNewContactPositiveDTO
+2023-10-27 20:21:03,560 INFO m.NGListener [NGListener.java:16] Start of the test --> addNewContactPositiveDTO
+2023-10-27 20:21:03,561 INFO t.TestBase [TestBase.java:40] Finished test ----> addNewContactPositiveDTO
+2023-10-27 20:21:03,562 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-27 20:21:04,563 INFO m.ApplicationManager [ApplicationManager.java:62] Tests completed

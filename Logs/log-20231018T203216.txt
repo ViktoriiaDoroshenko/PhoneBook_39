@@ -1,0 +1,36 @@
+2023-10-18 20:32:19,628 INFO t.TestBase [TestBase.java:35] Started test ----> loginNegativeTestWrongEmail
+2023-10-18 20:32:19,640 INFO m.NGListener [NGListener.java:16] Start of the test --> loginNegativeTestWrongEmail
+2023-10-18 20:32:19,642 INFO t.TestBase [TestBase.java:40] Finished test ----> loginNegativeTestWrongEmail
+2023-10-18 20:32:19,642 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,644 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTest
+2023-10-18 20:32:19,646 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTest
+2023-10-18 20:32:19,649 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTest
+2023-10-18 20:32:19,649 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,652 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTestModel
+2023-10-18 20:32:19,653 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestModel
+2023-10-18 20:32:19,655 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTestModel
+2023-10-18 20:32:19,655 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,658 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveTestProperties
+2023-10-18 20:32:19,659 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveTestProperties
+2023-10-18 20:32:19,661 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveTestProperties
+2023-10-18 20:32:19,661 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,677 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveUserDTO
+2023-10-18 20:32:19,678 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveUserDTO
+2023-10-18 20:32:19,679 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveUserDTO
+2023-10-18 20:32:19,680 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,681 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveUserDTO
+2023-10-18 20:32:19,682 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveUserDTO
+2023-10-18 20:32:19,683 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveUserDTO
+2023-10-18 20:32:19,683 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,685 INFO t.TestBase [TestBase.java:35] Started test ----> loginPositiveUserDTO
+2023-10-18 20:32:19,686 INFO m.NGListener [NGListener.java:16] Start of the test --> loginPositiveUserDTO
+2023-10-18 20:32:19,689 INFO t.TestBase [TestBase.java:40] Finished test ----> loginPositiveUserDTO
+2023-10-18 20:32:19,689 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,707 INFO t.TestBase [TestBase.java:35] Started test ----> addNewContactPositiveDTO
+2023-10-18 20:32:19,713 INFO m.NGListener [NGListener.java:16] Start of the test --> addNewContactPositiveDTO
+2023-10-18 20:32:19,714 INFO t.TestBase [TestBase.java:40] Finished test ----> addNewContactPositiveDTO
+2023-10-18 20:32:19,715 INFO t.TestBase [TestBase.java:41] ================================================================
+2023-10-18 20:32:19,719 INFO t.TestBase [TestBase.java:35] Started test ----> addNewContactPositiveDTO
+2023-10-18 20:32:19,722 INFO m.NGListener [NGListener.java:16] Start of the test --> addNewContactPositiveDTO
+2023-10-18 20:32:19,724 INFO t.TestBase [TestBase.java:40] Finished test ----> addNewContactPositiveDTO
+2023-10-18 20:32:19,724 INFO t.TestBase [TestBase.java:41] ================================================================
